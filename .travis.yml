@@ -2,6 +2,9 @@ language: java
 
 sudo: false
 
+env:
+  - RELEASE_BRANCH=revert_5710
+
 matrix:
   include:
     - jdk: openjdk11

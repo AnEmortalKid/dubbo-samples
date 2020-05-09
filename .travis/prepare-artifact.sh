@@ -9,6 +9,8 @@ git checkout revert_5710
 ls
 ./mvnw clean install -DskipTests -Drevision=2.7.7-SNAPSHOT
 
+export INTERGARTION_TEST_VERSION=2.7.7-SNAPSHOT
+
 # if [[ -z "${RELEASE_BRANCH}" ]]; then
 #   echo "RELEASE_BRANCH: ${RELEASE_BRANCH}"
 #   export INTERGARTION_TEST_VERSION=2.7.7-SNAPSHOT

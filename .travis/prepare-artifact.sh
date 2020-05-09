@@ -8,6 +8,7 @@ echo "dubbo checkout revert_5710"
 git checkout revert_5710
 ls
 ./mvnw clean install -DskipTests -Drevision=2.7.7-SNAPSHOT
+cd ..
 
 export INTERGARTION_TEST_VERSION=2.7.7-SNAPSHOT
 
